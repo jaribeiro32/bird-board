@@ -12,8 +12,12 @@ Homestead.yaml
 npm-debug.log
 yarn-error.log
 
-./idea
-/idea
+/.idea/**
+./idea/**
+/idea/
+/idea/**
+storage/
+storage/**
 
 # Created by https://www.toptal.com/developers/gitignore/api/windows,phpunit,phpstorm,node,git,laravel
 # Edit at https://www.toptal.com/developers/gitignore?templates=windows,phpunit,phpstorm,node,git,laravel
@@ -36,8 +40,6 @@ yarn-error.log
 ### Laravel ###
 /vendor/
 node_modules/
-npm-debug.log
-yarn-error.log
 
 # Laravel 4 specific
 bootstrap/compiled.php
@@ -52,11 +54,8 @@ public_html/storage
 public_html/hot
 
 storage/*.key
-.env
-Homestead.yaml
-Homestead.json
+
 /.vagrant
-.phpunit.result.cache
 
 # Laravel IDE helper
 *.meta.*
@@ -314,3 +313,4 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.toptal.com/developers/gitignore/api/windows,phpunit,phpstorm,node,git,laravel
+/.idea/bird-board.iml
